@@ -21,3 +21,15 @@ func DefaultSubscriber(name string) *Subscriber {
 	s.Active = true
 	return &s
 }
+
+type Employee struct {
+	Name string
+	Salary float64
+}
+
+type Address struct {
+	Street string
+	City string
+	State string
+	PostalCode string
+}
