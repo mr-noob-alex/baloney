@@ -6,6 +6,7 @@ type Subscriber struct {
 	Name   string
 	Rate   float64
 	Active bool
+	HomeAddress Address
 }
 
 func PrintInfo(s *Subscriber) {
@@ -25,6 +26,7 @@ func DefaultSubscriber(name string) *Subscriber {
 type Employee struct {
 	Name string
 	Salary float64
+	HomeAddress Address
 }
 
 type Address struct {
