@@ -1,5 +1,10 @@
 package calendar
 
+import (
+  "errors"
+  "unicode/utf8"
+)
+
 type Event struct {
   title string
   Date
